@@ -5,11 +5,11 @@
 }
 
 :root {
-    --corTexto: #ede0d4;
-    --fundoOperadores: #7f5539;
-    --fundoNumeros: #a68a64;
-    --fundoIgualdade: #656d4a;
-    --fundoCalculadora: #414833;
+    --corTexto: #e0fbfc;
+    --fundoOperadores: #3d5a80;
+    --fundoNumeros: #98c1d9;
+    --fundoIgualdade: #ee6c4d;
+    --fundoCalculadora: #293241;
 }
 
 input {

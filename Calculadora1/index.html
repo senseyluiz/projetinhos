@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Testes DOM</title>
+</head>
+
+<body>
+
+    <section id="calculadora">
+
+        <input type="text" id="input">
+
+        <div class="operadores">
+
+            <button id="soma" onclick="soma()"> + </button>
+            <button id="subtrai" onclick="subtrai()"> - </button>
+            <button id="multiplica" onclick="multiplica()"> x </button>
+            <button id="divide" onclick="divide()"> &divide;</button>
+
+        </div>
+        <!--operadores-->
+
+        <div id="numeros">
+
+            <div class="left">
+                <div class="linha1">
+                    <button id="sete" onclick="sete()"> 7 </button>
+                    <button id="oito" onclick="oito()"> 8 </button>
+                    <button id="nove" onclick="nove()"> 9 </button>
+                </div>
+                <!--linha1-->
+
+                <div class="linha2">
+                    <button id="quatro" onclick="quatro()"> 4 </button>
+                    <button id="cinco" onclick="cinco()"> 5 </button>
+                    <button id="seis" onclick="seis()"> 6 </button>
+                </div>
+                <!--linha2-->
+
+                <div class="linha3">
+                    <button id="um" onclick="um()"> 1 </button>
+                    <button id="dois" onclick="dois()"> 2 </button>
+                    <button id="tres" onclick="tres()"> 3 </button>
+                </div>
+                <!--linha3-->
+
+                <div class="linha4">
+                    <button id="zero" onclick="zero()"> 0 </button>
+                    <button id="ponto" onclick="ponto()"> . </button>
+                    <button id="c" onclick="c()"> c </button>
+                </div>
+                <!--linha4-->
+
+            </div>
+            <!--left-->
+
+            <div class="right">
+                <button id="igualdade" onclick="igualdade()"> = </button>
+
+            </div>
+            <!--right-->
+
+        </div>
+        <!--numeros-->
+
+    </section>
+    <!--calculadora-->
+
+
+    <script src="tesetDOM.js"></script>
+
+</body>
+
+</html>

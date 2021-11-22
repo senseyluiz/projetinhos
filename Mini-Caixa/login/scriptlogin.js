@@ -16,7 +16,9 @@ logar.addEventListener("click", function(e) {
     console.log("Usuario:" + usuario.value)
     console.log("Senha Usuario:" + senhaUsuario.value)
 
-    if (nickName == usuario.value && senha == senhaUsuario.value) {
+    if (usuario.value === "" || senhaUsuario.value === "") {
+        alert("Preecha os dados de login")
+    } else if (nickName == usuario.value && senha == senhaUsuario.value) {
         window.open("http://senseyluiz.github.io")
     } else {
         alert("Senha Incorreta");

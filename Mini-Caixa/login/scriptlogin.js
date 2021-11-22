@@ -17,8 +17,13 @@ logar.addEventListener("click", function(e) {
     console.log("Senha Usuario:" + senhaUsuario.value)
 
     if (nickName == usuario.value && senha == senhaUsuario.value) {
-        alert("Senha Correta");
+        window.open("http://senseyluiz.github.io")
     } else {
         alert("Senha Incorreta");
     }
+})
+
+cadastrar.addEventListener("click", function(e) {
+    e.preventDefault();
+    window.open("../cadastro/cadastro.html");
 })
